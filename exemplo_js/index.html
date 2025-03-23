@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo JS</title>
+</head>
+<body>
+    <script type="text/javascript">
+        /* alert('Exemplo JS')
+        let nome = 'Tiburso'
+        var sobrenome = 'Silva'
+        alert('Nome: ' + nome)
+        console.log(nome, sobrenome)
+        
+        for(var i=0; i < 30; i++){
+            console.log(i)
+        }
+
+        let pessoa = Number(prompt('Digite seu nome: '))
+        document.write('Olá ' + pessoa)
+
+        if (pessoa === 1){
+            alert('Voce Digitou 1')
+        }
+*/
+        function saudar(){
+            alert('Olá Mundo!')
+        }
+
+        function repetir(palavra){
+            alert('Foi passado a ' + palavra)
+        }
+
+        function contato(){
+            window.location = 'contato.html'
+        }
+    </script>
+
+    <button onclick="saudar()">Clique Aqui</button>
+    <button onclick="repetir('A PALAVRA')">Repetir</button>
+    <button onclick="contato()">Ir para Contato</button>
+</body>
+</html>
